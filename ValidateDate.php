@@ -43,9 +43,14 @@ class ValidateDate
         return true;
         else 
         return false;
+        }    }
+        public function verifResultat($resultat)
+        {
+
+            if($resultat==1 || $resultat==-1)
+            return true;
+            else 
+            return false;
         }
-
-
-    }
 }
 ?>
