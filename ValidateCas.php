@@ -35,7 +35,7 @@ class ValidateCas
     }
     public function verifTel($tel)
     {
-        if(strlen(trim($tel)<=8))
+        if(strlen($tel)<=8)
         return false;
         else
             if(strpos('+',$tel)==0||strpos('00',$tel)==0)
