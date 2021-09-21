@@ -30,7 +30,7 @@ public function testCode()
 public function testAdresse()
 {
     $adresse="cité el Amel 444 rue des fleurs";
-    $this->assertTrue($this->validateCas->verifAdresse($adresse));
+    $this->assertGreaterThan(8,$this->validateCas->verifAdresse($adresse));
 }
 
 }
