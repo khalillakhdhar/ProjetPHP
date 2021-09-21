@@ -19,12 +19,13 @@ class TestDate extends \PHPUnit\Framework\TestCase
     /** @test */
     public function verification()
     {
-         $jour=4;
-         $mois=5;
+         $jour=22;
+         $mois=2;
          $annee=2020;
          $this->assertTrue($this->vd->validateAll($jour,$mois,$annee));
 
     }
+    
 }
 
 
