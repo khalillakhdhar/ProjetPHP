@@ -1,1 +1,1 @@
-C:37:"PHPUnit\Runner\DefaultTestResultCache":204:{a:2:{s:7:"defects";a:2:{s:21:"TestCas::testNotEmpty";i:3;s:17:"TestCas::testCode";i:3;}s:5:"times";a:3:{s:21:"TestCas::testNotEmpty";d:0.004;s:16:"TestCas::TestNom";d:0;s:17:"TestCas::testCode";d:0.001;}}}
+C:37:"PHPUnit\Runner\DefaultTestResultCache":268:{a:2:{s:7:"defects";a:3:{s:21:"TestCas::testNotEmpty";i:3;s:17:"TestCas::testCode";i:3;s:20:"TestCas::testAdresse";i:3;}s:5:"times";a:4:{s:21:"TestCas::testNotEmpty";d:0.004;s:16:"TestCas::TestNom";d:0;s:17:"TestCas::testCode";d:0;s:20:"TestCas::testAdresse";d:0.001;}}}
