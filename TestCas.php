@@ -20,6 +20,12 @@ public function TestNom()
     $nom ="admin admin";
     $this->assertTrue($this->validateCas->validateNom($nom));
 }
+/** @test */
+public function testCode()
+{
+    $code=6033;
+    $this->assertTrue($this->validateCas->verifCode($code));
+}
 
 
 }
