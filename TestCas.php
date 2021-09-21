@@ -26,7 +26,12 @@ public function testCode()
     $code=6033;
     $this->assertTrue($this->validateCas->verifCode($code));
 }
-
+/** @test */
+public function testAdresse()
+{
+    $address="cité el Amel 444 rue des fleurs";
+    
+}
 
 }
 
