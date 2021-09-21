@@ -39,9 +39,7 @@ class ValidateCas
             if(strpos('+',$tel)==0||strpos('00',$tel)==0)
             return true;
                 else return false;
-
-
-
     }
+    
 }
 ?>
