@@ -11,5 +11,11 @@ class ValidateCas
     {
         return is_int($x); //permet de verifier que $x est entier
     }
+    public function validateNom($nom)
+    {
+        return str_word_count($nom)>1;
+
+    }
+    
 }
 ?>
