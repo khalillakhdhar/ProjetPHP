@@ -25,7 +25,11 @@ class TestDate extends \PHPUnit\Framework\TestCase
          $this->assertTrue($this->vd->validateAll($jour,$mois,$annee));
 
     }
-    
+    /** @afterClass */
+    public function destroyAll()
+    {
+        $this->vd=null;
+    }
 }
 
 
