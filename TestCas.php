@@ -29,8 +29,8 @@ public function testCode()
 /** @test */
 public function testAdresse()
 {
-    $address="cité el Amel 444 rue des fleurs";
-    
+    $adresse="cité el Amel 444 rue des fleurs";
+    $this->assertTrue($this->validateCas->verifAdresse($adresse));
 }
 
 }
