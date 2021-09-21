@@ -1,6 +1,8 @@
 <?php 
 class ValidateCas
 {
+
+
     public function validNotEmpty($chaine)
     {
         return $chaine!="";
@@ -40,6 +42,10 @@ class ValidateCas
             return true;
                 else return false;
     }
-    
+    public function sansEspace($tel)
+    {
+        return strpos(' ',$tel)==-1;
+    }
+
 }
 ?>
